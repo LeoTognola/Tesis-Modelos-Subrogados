@@ -1,7 +1,9 @@
 # Modelos Subrogados para Ondas Gravitacionales
 
-Este repositorio contiene los códigos completos utilizados para el desarrollo y prueba de **modelos subrogados** aplicados a ondas gravitacionales.  
-El objetivo es generar señales analíticas y numéricas, construir modelos reducidos y evaluar su desempeño en la estimación de parámetros como las masas de sistemas binarios.
+Este repositorio contiene los códigos completos utilizados para el desarrollo y prueba de **modelos subrogados** aplicados a ondas gravitacionales. 
+El objetivo es generar señales, construir modelos reducidos y evaluar su desempeño en la estimación de parámetros como las masas de sistemas binarios. 
+
+Este repositorio contiene los códigos desarrollados e implementados para el Trabajo Final de Licenciatura en Física (UNCA), orientado al estudio de modelos subrogados de ondas gravitacionales y su aplicación en la estimación de parámetros.
 
 ---
 
@@ -46,4 +48,4 @@ docker pull pycbc/pycbc-el7:latest
 
 ## Autor
 
-Leandro Tognola – 2025
+Leandro Ezequiel Tognola – Septiembre 2025
