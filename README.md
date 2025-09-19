@@ -8,13 +8,13 @@ El objetivo es generar señales, construir modelos reducidos y evaluar su desemp
 
 ## Contenido del repositorio
 
-01_generacion_senales → códigos para generar ondas gravitacionales exactas (PyCBC).
+01_generación_señales → códigos para generar ondas gravitacionales exactas (PyCBC).
 
 02_modelos_subrogados → construcción de bases reducidas y aproximación mediante.
 
-03_estimacion_parametros → uso de filtrado por correlación y matches para estimar masas.
+03_estimación_parámetros → uso de filtrado por correlación y Match para estimar masas.
 
-04_resultados → scripts para graficar ondas, calcular errores y comparar modelos.
+04_resultados → gráfico de ondas, calcular errores y comparar modelos.
 
 ---
 
