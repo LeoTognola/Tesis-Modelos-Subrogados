@@ -14,7 +14,7 @@ Scripts para generar ondas gravitacionales exactas utilizando PyCBC. Incluye eje
 - 02_modelos_subrogados/
 Implementación de la construcción de bases reducidas (SVD) y la interpolación en el espacio de parámetros.
 
-  - 1_modelo_subrogado.py: Primer modelo subrogado, trabaja con una señal observada más simple y eresultados a mejorar.
+  - 1_modelo_subrogado.py: Primer modelo subrogado, trabaja con una señal observada más simple y resultados a mejorar.
   - 2_match_mejorado.py: Versión mejorada, trabaja con una onda más compleja, con cambios significativos en la construcción y resultados.
 
 - 03_estimación_parámetros/
