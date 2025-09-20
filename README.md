@@ -1,20 +1,27 @@
-# Modelos Subrogados para Ondas Gravitacionales
+## Modelos Subrogados para Ondas Gravitacionales
 
-Este repositorio contiene los códigos desarrollados e implementados para mi Tesis de Licenciatura en Física, en la Facultad de Ciencias Exactas y Naturales de la Universidad Nacional de Catamarca (UNCA) de la República Argentina, orientada al desarrollo y estudio de modelos subrogados de ondas gravitacionales.
+Este repositorio contiene los códigos desarrollados e implementados para mi Tesis de Licenciatura en Física en la Facultad de Ciencias Exactas y Naturales de la Universidad Nacional de Catamarca (UNCA, Argentina).
 
-El objetivo es generar señales, construir modelos reducidos y evaluar su desempeño en la estimación de parámetros como las masas de sistemas binarios.
+El trabajo está orientado al desarrollo y estudio de modelos subrogados de ondas gravitacionales, con el objetivo de generar señales, construir modelos reducidos y evaluar su desempeño en la estimación de parámetros como las masas de sistemas binarios.
 
 ---
 
 ## Contenido del repositorio
 
-01_generación_señales → códigos para generar ondas gravitacionales exactas (PyCBC).
+- 01_generación_señales/
+Scripts para generar ondas gravitacionales exactas utilizando PyCBC. Incluye ejemplos con distintos rangos de masas y aproximantes.
 
-02_modelos_subrogados → construcción de bases reducidas y aproximación mediante.
+- 02_modelos_subrogados/
+Implementación de la construcción de bases reducidas (SVD) y la interpolación en el espacio de parámetros.
 
-03_estimación_parámetros → uso de filtrado por correlación y Match para estimar masas.
+  - 1_modelo_subrogado.py: Primer modelo subrogado, trabaja con una señal observada más simple y eresultados a mejorar.
+  - 2_match_mejorado.py: Versión mejorada, trabaja con una onda más compleja, con cambios significativos en la construcción y resultados.
 
-04_resultados → gráfico de ondas, calcular errores y comparar modelos.
+- 03_estimación_parámetros/
+Códigos para la estimación de masas mediante filtrado por correlación (matched filtering) y comparación de formas de onda (Match).
+
+- 04_resultados/
+Gráficos de ondas, análisis de errores y comparación entre los modelos.
 
 ---
 
@@ -40,11 +47,21 @@ La imagen puede descargarse directamente desde **Docker Hub**:
 
 Comando para obtener la última versión:  
 
-bash
-docker pull pycbc/pycbc-el7:latest
+bash docker pull pycbc/pycbc-el7:latest
+
+---
+
+## Limitaciones
+
+- Los modelos subrogados implementados en este repositorio fueron desarrollados y probados únicamente para sistemas con masas iguales ($m_1 = m_2$).
+
+- La extensión a configuraciones con $m_1 \neq m_2$ no está incluida en este trabajo.
+
+- El objetivo principal fue validar la metodología en un caso simple antes de considerar espacios de parámetros más generales.
 
 ---
 
 ## Autor
 
 Leandro Ezequiel Tognola – Septiembre 2025
+
