@@ -1,6 +1,6 @@
 # Modelos Subrogados para Ondas Gravitacionales
 
-Este repositorio contiene los códigos desarrollados e implementados para mi Tesis de Licenciatura en Física  de la Universidad Nacional de Catamarca (UNCA) de la República Argentina, orientada al desarrollo y estudio de modelos subrogados de ondas gravitacionales.
+Este repositorio contiene los códigos desarrollados e implementados para mi Tesis de Licenciatura en Física, en la Facultad de Ciencias Exactas y Naturales de la Universidad Nacional de Catamarca (UNCA) de la República Argentina, orientada al desarrollo y estudio de modelos subrogados de ondas gravitacionales.
 
 El objetivo es generar señales, construir modelos reducidos y evaluar su desempeño en la estimación de parámetros como las masas de sistemas binarios.
 
