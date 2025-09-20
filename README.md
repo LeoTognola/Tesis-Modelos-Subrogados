@@ -55,7 +55,7 @@ bash docker pull pycbc/pycbc-el7:latest
 
 - Los modelos subrogados implementados en este repositorio fueron desarrollados y probados únicamente para sistemas con masas iguales ($m_1 = m_2$).
 
-- La extensión a configuraciones con $m_1 \neq m_2$ no está incluida en este trabajo.
+- La extensión a configuraciones con $m_1 \neq m_2$ u otros parámetros no está incluida en este trabajo.
 
 - El objetivo principal fue validar la metodología en un caso simple antes de considerar espacios de parámetros más generales.
 
