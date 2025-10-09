@@ -15,7 +15,7 @@ Scripts para generar ondas gravitacionales exactas utilizando PyCBC. Incluye eje
 Implementación de la construcción de bases reducidas (SVD) y la interpolación en el espacio de parámetros.
 
   - 1_modelo_subrogado.ipynb: Primer modelo subrogado, trabaja con una señal observada más simple y resultados a mejorar.
-  - 2_match_mejorado.ipynb: Versión mejorada, trabaja con una onda más compleja, con cambios significativos en la construcción y resultados.
+  - 2_modelo_subrogado_mejorado.ipynb: Versión mejorada, trabaja con una onda más compleja, con cambios significativos en la construcción y resultados.
 
 - 03_estimación_parámetros/
 Códigos para la estimación de masas mediante filtrado por correlación (matched filtering) y comparación de formas de onda (Match).
